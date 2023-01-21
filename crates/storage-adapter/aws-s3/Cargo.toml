@@ -1,0 +1,15 @@
+[package]
+name = "turborepo-aws-s3-storage-adapter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+async-trait = { workspace = true }
+aws-config = { version = "0.52" }
+aws-sdk-s3 = { version = "0.22.0" }
+aws-smithy-http = { version = "0.52.0" }
+bytes = { workspace = true }
+hyper = { workspace = true }
+futures = { workspace = true }
+turborepo-storage-adapter = { path = "../" }

@@ -1,0 +1,13 @@
+[package]
+name = "turborepo-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+bytes = { workspace = true }
+futures = { workspace = true }
+hyper = { workspace = true, features = ["full"] }
+routerify = { version = "3" }
+turborepo-core = { path = "../core" }
+url = { version = "2" }

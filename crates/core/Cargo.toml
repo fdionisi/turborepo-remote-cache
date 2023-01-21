@@ -1,0 +1,11 @@
+[package]
+name = "turborepo-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+futures = { workspace = true }
+bytes = { workspace = true }
+hyper = { workspace = true }
+turborepo-storage-adapter = { path = "../storage-adapter" }

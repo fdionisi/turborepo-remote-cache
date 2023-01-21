@@ -1,0 +1,13 @@
+[package]
+name = "turborepo-fs-storage-adapter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+async-trait = { workspace = true }
+bytes = { workspace = true }
+futures = { workspace = true }
+hyper = { workspace = true }
+tokio = { workspace = true, features = ["fs"] }
+turborepo-storage-adapter = { path = "../" }
